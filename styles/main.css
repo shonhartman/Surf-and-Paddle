@@ -39,8 +39,20 @@ body {
 .hero-text h1 {
   margin-bottom: 0;
 
+
 }
 
+.line {
+    border-bottom: 2.25px solid white;
+    width: 150px;
+    position: absolute;
+    display: inline-block;
+    margin-right: -7%;
+    margin-left: -7%;
+
+}
+
+
 .hero-text p {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
