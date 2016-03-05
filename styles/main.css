@@ -61,8 +61,29 @@ body {
   width: 1280px;
 }
 
+.images img {
+  width: 320px;
+  height: 320px;
+}
+
 .images .link {
   position: relative;
   width: 320px;
   float: left;
+}
+
+.images .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 320px;
+  background-color: #222222;
+  opacity: .7;
+}
+
+.images .overlay:hover {
+  opacity: 0;
+  transition: opacity 2s;
+
 }
