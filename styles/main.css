@@ -6,7 +6,7 @@ body {
 }
 
 .outer-panel {
-  width: 980px;
+  width: 1280px;
   height: 640px;
   margin: 0 auto;
   background-image: url("http://now.lincoln.com/wp-content/uploads/2014/10/EasternMarketDetriot-1280x803.jpg");
@@ -16,7 +16,7 @@ body {
 }
 
 .panel-overlay {
-  width: 980px;
+  width: 1280px;
   height: 640px;
   margin: 0 auto;
   background-color: #A4A4A4;
@@ -26,8 +26,8 @@ body {
 
 
 .hero-text {
-/*background-color: grey;*/
-  width: 980px;
+/*background-color: black;*/
+  width: 1280px;
   margin: 0 auto;
   position: absolute;
   top: 40%;
@@ -55,4 +55,14 @@ body {
 
 .hero-text p {
   font-size: 1.1rem;
+}
+
+.images {
+  width: 1280px;
+}
+
+.images .link {
+  position: relative;
+  width: 320px;
+  float: left;
 }
