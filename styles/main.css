@@ -1,12 +1,35 @@
 body {
   color: white;
-
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  letter-spacing: 0.8em;
 }
 
-.panel > div {
+.outer-panel {
   width: 980px;
   height: 640px;
   margin: 0 auto;
-  background-image: url('http://sydneydanceworld.com.au/assets/images/default-background/dance-3.jpg');
+  background-image: radial-gradient(ellipse at center,
+                                    rgba(0,0,0,0.35) 0%,
+                                    rgba(0,0,0,0.95) 100%,
+                    url("http://now.lincoln.com/wp-content/uploads/2014/10/EasternMarketDetriot-1280x803.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.inner-panel {
+/*background-color: grey;*/
+  width: 980px;
+  margin: 0 auto;
+  position: absolute;
+  top: 40%;
   text-align: center;
+  font-size: 3rem;
+
+
+}
+
+.inner-panel p {
+  font-size: 1rem;
 }
