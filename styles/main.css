@@ -15,24 +15,32 @@ body {
   position: relative;
 }
 
-.inner-panel {
-background-color: grey;
-  width: 510px;
-  height: 500px;
+.panel-overlay {
+  width: 980px;
+  height: 640px;
+  margin: 0 auto;
+  background-color: #A4A4A4;
+  opacity: .8;
+}
+
+
+
+.hero-text {
+/*background-color: grey;*/
+  width: 980px;
   margin: 0 auto;
   position: absolute;
   top: 40%;
   text-align: center;
   font-size: 3rem;
-  border-radius: 50%;
-  border: 1px solid black;
 
 }
 
-.inner-panel h1 {
+.hero-text h1 {
   margin-bottom: 0;
+
 }
 
-.inner-panel p {
+.hero-text p {
   font-size: 1rem;
 }
