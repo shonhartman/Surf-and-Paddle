@@ -59,6 +59,10 @@ body {
 
 .images {
   width: 1280px;
+  position: absolute;
+
+
+
 }
 
 .images img {
