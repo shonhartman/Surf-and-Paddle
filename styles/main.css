@@ -73,12 +73,18 @@ body {
   display: block;
   position: relative;
   overflow: hidden;
-  /*padding: 5px 30px 0;*/
+  text-align: center;
+  padding: 5px 0;
 
 }
 
+.left-column p {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 .right-column {
-  background-color: red;
+  /*background-color: red;*/
   width: 46%;
   height: 600px;
   margin: 0 auto;
@@ -94,13 +100,30 @@ body {
   height: 160px;
   padding: 20px;
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 50%;
+  margin: -112px 0 0 -173px;
+
+}
+
+.right-column h3 {
+  width: 300px;
+  position: absolute;
+  top: 60%;
+  left: 53%;
   margin: -112px 0 0 -170px;
+  text-align: center;
 
+}
 
-
-
+.right-column p {
+  font-family: "Dancing Script";
+  text-transform: none;
+  position: absolute;
+  top: 50%;
+text-align: center;
+margin-left: 100px;
+margin-right: 100px;
 }
 
 .inner-panel span {
